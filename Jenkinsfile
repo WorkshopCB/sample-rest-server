@@ -15,14 +15,5 @@ pipeline {
             }
          }
       }
-      stage('Development test') {
-         when {
-            beforeAgent true
-            branch 'development'
-         }
-         steps {
-            echo "Run the development tests!"
-         }
-      }
    }
 }
