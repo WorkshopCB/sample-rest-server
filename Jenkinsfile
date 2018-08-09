@@ -15,7 +15,7 @@ pipeline {
             }
          }
       }
-      stage('Development test') {
+      stage('Development Tests') {
          when {
             beforeAgent true
             branch 'development'
